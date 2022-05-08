@@ -1,0 +1,7 @@
+name : github-actions-demo
+on: [push]
+jobs:
+  - name: Print Python version
+    uses: python --version
+  - name: Pylint download
+    uses: pip install pytest
