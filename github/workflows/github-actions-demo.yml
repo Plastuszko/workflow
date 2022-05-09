@@ -14,5 +14,6 @@ jobs:
        pip install pylint
        pip install flask
        pip install -r requirements.txt
-  - name:
-       pylint app.py
+  - name: wlaczenie testowania
+       run:
+          pylint app.py
