@@ -5,3 +5,5 @@ jobs:
     uses: python --version
   - name: Pylint download
     uses: pip install pytest
+  - name: Initialize python test
+    run: pytest
