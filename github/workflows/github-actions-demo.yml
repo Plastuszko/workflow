@@ -1,8 +1,10 @@
 name : github-actions-demo
 on: [push]
 jobs:
+  - my_first_job:
   - name: Print Python version
     uses: python --version
+  - my_second_job:
   - name: Pylint download
     uses: pip install pytest
   - name: Initialize python test
